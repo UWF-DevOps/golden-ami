@@ -1,0 +1,30 @@
+# Compiled source #
+###################
+
+# Packages #
+############
+
+# Logs and databases #
+######################
+
+<<<<<<< HEAD
+# Vagrant #
+###########
+.vagrant
+
+# Virtual Box #
+###############
+*.box
+*.iso
+=======
+>>>>>>> d13e8715f712bb87cdd4a8d6d9a9b869925fade7
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
