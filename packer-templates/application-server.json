@@ -62,7 +62,7 @@
         "source_ami": "ami-10b68a78",
         "instance_type": "t1.micro",
         "ssh_username": "ubuntu",
-        "ami_name": "packer-app-server {{timestamp}}"
+        "ami_name": "golden-glassfish-server {{timestamp}}"
       },
       {
         "type": "googlecompute",
