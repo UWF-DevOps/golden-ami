@@ -36,7 +36,7 @@ export PATH
 # back to root
 exit
 # set glassfish to run on startup
-cp ./golden-ami/packer-templates/scripts/glassfish.sh /etc/init.d
+cp /home/glass/golden-ami/packer-templates/scripts/glassfish.sh /etc/init.d
 chmod a+rx /etc/init.d/glassfish.sh
 chkconfig --add glassfish.sh
 

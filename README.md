@@ -5,7 +5,7 @@ A repository for setting up an ami, and a vagrant box to work with glassfish
 ```
 
 ## Requirements
-* [VirtualBox](https://www.virtualbox.org) Not dependency for packer, but for the idea behind this repository
+* [VirtualBox](https://www.virtualbox.org) Not a dependency for packer, but for the idea behind this repository
 * [Vagrant](http://vagrantup.com)
 * [packer](https://www.packer.io/)
 
