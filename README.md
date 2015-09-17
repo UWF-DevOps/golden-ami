@@ -1,5 +1,5 @@
 # goldenglass
-Dependencies:
-  packer
-  vagrant
-  virtualbox
+Dependencies:<br>
+  packer <br>
+  vagrant<br>
+  virtualbox <br>
