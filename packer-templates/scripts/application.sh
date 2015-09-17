@@ -11,7 +11,8 @@ adduser glass
 wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie;" -a /tmp/installLog.txt -t 1 -O /var/tmp/jdk.tar.gz http://download.oracle.com/otn-pub/java/java_ee_sdk/7u3/java_ee_sdk-7u1.zip
 wget --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie;" -a /tmp/installLog.txt -t 1 -O /var/tmp/glassfish.zip http://download.oracle.com/otn-pub/java/glassfish/3122/ogs-3.1.2.2.zip
 
-#wget -a /tmp/installLog.txt -t 1 -O /var/tmp/glassfish https://s3.amazonaws.com/nwilde.uwf.edu/glassfish
+
+
 su -l glass
 
 #Get application source code
@@ -37,8 +38,8 @@ export PATH
 # back to root
 exit
 # set glassfish to run on startup
-cp /var/tmp/glassfish /etc/init.d
-chmod a+rx /etc/init.d/glassfish
-chkconfig --add glassfish
+cp ./golden-ami/packer-templates/scripts/glassfish.sh /etc/init.d
+chmod a+rx /etc/init.d/glassfish.sh
+chkconfig --add glassfish.sh
 
 reboot
