@@ -16,7 +16,8 @@
 *.box
 *.iso
 *.vdi
-
+*.vmdk
+*.ovf
 # OS generated files #
 ######################
 .DS_Store
