@@ -40,7 +40,7 @@
         "http_directory": "http",
         "iso_checksum": "a3b345908a826e262f4ea1afeb357fd09ec0558cf34e6c9112cead4bb55ccdfb",
         "iso_checksum_type": "sha256",
-        "iso_url": "../../iso/20150821_ubuntu_server/ubuntu-14.04.3-server-amd64.iso",
+        "iso_url": "../../../iso/ubuntu-14.04.3-server-amd64.iso",
         "shutdown_command": "echo 'vagrant'|sudo -S shutdown -P now",
         "ssh_password": "vagrant",
         "ssh_port": 22,
