@@ -5,7 +5,7 @@ A repository for setting up an ami, and a vagrant box to work with glassfish
 ```
 
 ## Requirements
-* [VirtualBox](https://www.virtualbox.org)
+* [VirtualBox](https://www.virtualbox.org) Not dependency for packer, but for the idea behind this repository
 * [Vagrant](http://vagrantup.com)
 * [packer](https://www.packer.io/)
 
@@ -14,6 +14,10 @@ To create the vagrant box
 
     host $ cd packer-scripts 
     host $ packer build -only=virtualbox-iso application-server.json 
+
+Once packer has done its thing then run
+
+    host $ vagrant box add golden-ami ubuntu-14.04.3-server-amd64-appserver_virtualbox.box
 
 ## Virtual Machine Management
 
