@@ -1,7 +1,7 @@
 # golden-ami
 
 ```
-A repository for setting up an ami, and a vagrant box using glassfish
+A repository for setting up an ami, and a vagrant box to work with glassfish
 ```
 
 ## Requirements
