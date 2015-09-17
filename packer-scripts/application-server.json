@@ -63,7 +63,7 @@
         "instance_type": "t1.micro",
         "ssh_username": "ubuntu",
         "ami_name": "golden-glassfish-server {{timestamp}}"
-      },
+      }
 
   ],
 
