@@ -1,5 +1,5 @@
 # goldenglass
-Dependencies:<br>
-  packer <br>
-  vagrant<br>
-  virtualbox <br>
+## Requirements
+* [VirtualBox](https://www.virtualbox.org)
+* [Vagrant](http://vagrantup.com)
+* [packer](https://www.packer.io/)
