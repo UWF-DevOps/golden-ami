@@ -7,6 +7,7 @@ apt-get upgrade
 touch /tmp/installLog.txt
 apt-get install git -y
 apt-get install wget -y
+apt-get install unzip -y
 
 echo "glass:glasscannotlogin::::/home/glass/:/usr/sbin/nologin" > glassfish_user.txt
 newusers glassfish_user.txt
@@ -19,13 +20,13 @@ cd /home/glass/
 #We only want applications to be run with glass permissions
 #Get application source code
 git clone https://www.github.com/tcamick/golden-ami
-chown -r glass:glass /home/glass/golden-ami
+chown -R glass:glass /home/glass/golden-ami
 
 cp /var/tmp/glassfish.zip /home/glass/glassfish.zip
 cp /var/tmp/jdk.zip /home/glass/jdk.zip
 
-chown -r glass:glass /home/glass/glassfish.zip
-chown -r glass:glass /home/glass/jdk.zip
+chown -R glass:glass /home/glass/glassfish.zip
+chown -R glass:glass /home/glass/jdk.zip
 
 
 unzip /home/glass/jdk.tar.gz
