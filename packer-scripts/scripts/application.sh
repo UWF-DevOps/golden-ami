@@ -41,6 +41,5 @@ exit
 # set glassfish to run on startup
 cp /home/glass/golden-ami/packer-scripts/scripts/glassfish.sh /etc/init.d/glassfish.sh
 chmod a+rx /etc/init.d/glassfish.sh
-chkconfig --add glassfish.sh
 
 reboot
