@@ -25,12 +25,11 @@ chown -R glass:glass /home/glass/golden-ami
 cp /var/tmp/glassfish.zip /home/glass/glassfish.zip
 cp /var/tmp/jdk.zip /home/glass/jdk.zip
 
-chown -R glass:glass /home/glass/glassfish.zip
-chown -R glass:glass /home/glass/jdk.zip
-
-
 unzip /home/glass/jdk.tar.gz
 unzip /home/glass/glassfish.zip
+
+chown -R glass:glass /home/glass/glassfish3
+chown -R glass:glass /home/glass/jdk
 
 # bin directory containing asadmin is ~glass/glassfish4/bin == THIS MAY CHANGE ==
 #Use vim to edit the glass .bash_profile file to put these two bin's BEFORE anything else. Resulting file is:
