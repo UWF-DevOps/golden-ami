@@ -22,7 +22,7 @@ RETVAL=0
 prog="glassfish"
 glassInitLog="/var/tmp/glassInitLog"
 instanceIdFile="/var/tmp/instanceId"
-glassfishBin="/home/glass/glassfish4/bin"
+glassfishBin="/home/glass/glassfish3/bin"
 awsBin="/opt/aws/bin"
 
 start() {
